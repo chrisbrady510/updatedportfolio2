@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<title>Christopher Brady's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <img src="images/ic_home.png">
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-#008000">
+    <img src="images/ic_about.png">
+    <p>ABOUT</p>
+  </a>
+  <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-#008000">
+    <img src="images/ic_portfolio.png">
+    <p>PORTFOLIO</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-#008000">
+    <img src="images/ic_contact.png">
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Christopher Brady.</h1>
+    <p>Developer In-Training and Bay Area Sports Fan</p>
+    <img src="images/me.jpg" alt="me" class="w3-image" width="750" height="918">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-padding-64 w3-content" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+      <p style="font-size:18px;">
+        Greetings, and thank you for visiting my portfolio site! I am an avid sports fan, loving life in the East Bay region of 
+        Northern California, and am a developer in training. With that being said, I am what you could consider a "fan of the game", and by virtue of this,
+        I can always appreciate an intelligent sports conversation. 
+      </p>
+      <br></br>
+      
+      <p style="font-size:18px;">
+        Here you will find various projects that I have worked on, during my tenure at UC Berkeley's Full Stack Web Development boot camp. The projects range from surveys, games, to app development. 
+        Please feel free to explore and test out any one of my projects. 
+      </p>
+      <br></br>
+
+      <audio controls>
+          <source src="oaksong.ogg" type="audio/ogg">
+          <source src="oaksong.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+    
+    
+    <br></br>
+    <br></br>
+    
+    
+    
+    
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="portfolio">
+    <h2 class="w3-text-light-grey">My Portfolio</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for portfolio -->
+    <!-- left-->
+    <div class="w3-row-padding" style="margin:0 -16px">
+        
+        <div class="w3-half">
+          <!--<a href="https://chrisbrady510.github.io/GIFtastic/"> <h1>GIFTastic</h1></a>-->
+          <h1>GIFTastic</h1>
+          <a href="https://chrisbrady510.github.io/GIFtastic/"> <img src="images/Screenshot5.png" class="image">
+          <div class="overlay">
+          <div class="text">Type a 90's-2000's alternative band into the search bar, and a GIF will be generated along with a rating</div></a>
+        </div>
+        </div>
+
+        
+        <div class="w3-half">
+          <!--<a href="https://chrisbrady510.github.io/Trivia_Game"> <h1>A's Trivia</h1></a>-->
+          <h1>A's Trivia</h1>
+          <a href="https://chrisbrady510.github.io/Trivia_Game"><img src="images/Screenshot4.png" class="image">
+          <div class="overlay">
+          <div class="text">If you're a fan of the Oakland Athletics, then this is the quiz for you. Lets see if you can hit a proverbial homerun.</div></a>
+        </div>
+        </div>
+
+        
+        <div class="w3-half">
+          <!--<a href="https://chrisbrady510.github.io/Hangman"> <h1>Hangman</h1></a>-->
+          <h1>Hangman</h1>
+          <a href="https://chrisbrady510.github.io/Hangman"><img src="images/hangman.png" class="image">
+          <div class="overlay">
+          <div class="text">Can you guess the proper word in time to save your fellow human?</div></a>
+        </div>
+        </div>
+      
+        
+        <div class="w3-half">
+          <!--<a href="https://chrisbrady510.github.io/crystalgame"> <h1>Crystal Collector</h1></a>-->
+          <h1>Crystal Collector</h1>
+          <a href="https://chrisbrady510.github.io/crystalgame"><img src="images/crystal.png" class="image">
+          <div class="overlay">
+          <div class="text">Each Crystal has a different value, add them up to meet target number. Don't go over, or you'll lose!</div></a>
+        </div>
+        </div>
+
+        
+        <div class="w3-half">
+          <!--<a href="https://chrisbrady510.github.io/friend-finder"> <h1>Friend Finder</h1></a>-->
+          <h1>Friend Finder</h1>
+          <a href="https://chrisbrady510.github.io/friend-finder"><img src="images/toystory.png" class="image">
+          <div class="overlay">
+          <div class="overlay">
+          <div class="text">Answer the questions to the best of your ability, and find your favorite toy. Based on Toy Story 4.</div></a>
+        </div>
+        </div>
+        </div>
+        
+        
+        <div class="w3-half">
+          <!--<a href="https://chrisbrady510.github.io/"> <h1>Train</h1></a>-->
+          <h1>Train</h1>
+          <a href="https://chrisbrady510.github.io/train"><img src="images/train.png" class="image">
+          <div class="overlay">
+          <div class="overlay">
+          <div class="text">Don't miss your train! Train Schdule is dynamic, with arrival/departure times provided in miliary time,</div></a>
+        </div>
+        </div>
+      </div>
+        
+    
+      
+    <!-- End photo grid -->
+  </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><img src="images/ic_about.png"> Christopher Brady</p>
+      <p><img src="images/ic_phone.png"> Phone: (510) 415-1515</p>
+      <p><img src="images/ic_contact.png"> Email: chrismbrady@gmail.com</p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    
+ 
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
